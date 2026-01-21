@@ -19,47 +19,47 @@ squirrels = load_csv("squirrel.csv")
 #print(squirrels)
 
 #prints first number of rows specified
-#print(squirrels[:2])
+print(squirrels[:2])
 
 #print the first row etc . . . 
-#print(squirrels[0])
+print(squirrels[0])
 
 #slices 
-#print(squirrels[10:20])
+print(squirrels[10:20])
 
 #see columns in dataset
-#print(squirrels[0].keys())
+print(squirrels[0].keys())
 
 #print data in a column
-#for row in squirrels:
-#    print(row["Age"])
-#
+for row in squirrels:
+    print(row["Age"])
+
 
 #print only the first 10 rows of Age
-#for row in squirrels[:10]:
-#    print(row["Age"])
+for row in squirrels[:10]:
+    print(row["Age"])
 
 #slice Age
-#for row in squirrels[3:20]:
-#    print(row["Age"])
+for row in squirrels[3:20]:
+    print(row["Age"])
 
 #print multiple columns 
-#for row in squirrels[:10]:
-#    print(row["Age"], row["Primary Fur Color"], row["Foraging"])
+for row in squirrels[:10]:
+    print(row["Age"], row["Primary Fur Color"], row["Foraging"])
 
 #print the first 10 rows from three columns
-#for row in squirrels[:10]:
-#    print(
-#        row["Age"],
-#        row["Primary Fur Color"],
-#        row["Foraging"]
-#    )
+for row in squirrels[:10]:
+    print(
+        row["Age"],
+        row["Primary Fur Color"],
+        row["Foraging"]
+    )
 
 
 #show me where all the grey squirrels were spotted
-#for row in squirrels:
-#    if row["Primary Fur Color"] == "Gray":
-#        print(row["X"], row["Y"])
+for row in squirrels:
+    if row["Primary Fur Color"] == "Gray":
+        print(row["X"], row["Y"])
 
 
 #how many grey squirrels are there?
@@ -97,6 +97,8 @@ for row in squirrels:
 
 print("Adult gray squirrels:", adult_gray)
 print("Juvenile gray squirrels:", juvenile_gray)
+
+
 
 
 
