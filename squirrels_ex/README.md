@@ -14,7 +14,6 @@ And it has an associated web output: https://www.thesquirrelcensus.com/
 
 ## Three Data Questions
 
-### 1) How many gray squirrels are in the dataset?
 # Question: How many gray squirrels are there?
 #count = 0
 #for row in squirrels:
