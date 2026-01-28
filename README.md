@@ -1,6 +1,6 @@
 [README.md](https://github.com/user-attachments/files/24918931/README.md)
 
-(This may be better to read in code, the preview looks wrong and messy)
+(This may be better to read in code, the preview looks wrong and a bit messy)
 
 
 
